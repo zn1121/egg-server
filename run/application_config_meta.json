@@ -1,0 +1,299 @@
+{
+  "keys": "/Users/yunji/Documents/egg-serveAPI/config/config.default.js",
+  "middleware": "/Users/yunji/Documents/egg-serveAPI/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/config/config.default.js",
+      "useSession": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/yunji/Documents/egg-serveAPI/config/config.default.js",
+    "allowMethods": "/Users/yunji/Documents/egg-serveAPI/config/config.default.js"
+  },
+  "session": {
+    "key": "/Users/yunji/Documents/egg-serveAPI/config/config.default.js",
+    "maxAge": "/Users/yunji/Documents/egg-serveAPI/config/config.default.js",
+    "httpOnly": "/Users/yunji/Documents/egg-serveAPI/config/config.default.js",
+    "encrypt": "/Users/yunji/Documents/egg-serveAPI/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "name": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "version": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "description": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "private": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-passport": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-passport-github": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-session": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "mqtt": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "stop": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "dev": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "debug": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "test": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "cov": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "lint": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "ci": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "autod": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "url": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "license": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "strict": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "depth": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "env": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "level": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "logging": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "port": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/yunji/Documents/egg-serveAPI/node_modules/egg/config/config.default.js"
+}
